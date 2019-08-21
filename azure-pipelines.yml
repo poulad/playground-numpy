@@ -4,6 +4,11 @@ pool:
 
 steps:
   - task: UsePythonVersion@0
-    versionSpec: '3.6'
+    inputs:
+      versionSpec: '3.6'
 
-  - script: pipenv sync
+#steps2:
+#  - task: UsePythonVersion@0
+#    versionSpec: '3.6'
+#
+#  - script: pipenv sync
