@@ -7,8 +7,4 @@ steps:
     inputs:
       versionSpec: '3.6'
 
-#steps2:
-#  - task: UsePythonVersion@0
-#    versionSpec: '3.6'
-#
-#  - script: pipenv sync
+  - script: pipenv sync
