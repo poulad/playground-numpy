@@ -6,5 +6,4 @@ steps:
   - task: UsePythonVersion@0
     versionSpec: '3.6'
 
-  - displayName: Resolve Dependencies
-    script: pipenv sync
+  - script: pipenv sync
