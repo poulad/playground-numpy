@@ -7,7 +7,7 @@ steps:
     inputs:
       versionSpec: '3.7.x'
 
-  - bash: echo "##vso[task.prependpath]$CONDA/bin"
-    displayName: Add miniconda binaries to PATH
+  - script: pip install pipenv
+    displayName: Configure Build Environment
 
   - script: pipenv sync
