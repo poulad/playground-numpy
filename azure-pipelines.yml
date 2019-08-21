@@ -10,5 +10,5 @@ steps:
   - script: pip install pipenv
     displayName: Configure Build Environment
 
-  - displayName: Resolve Dependencies
-    script: pipenv sync
+  - script: pipenv sync
+    displayName: Resolve Dependencies
