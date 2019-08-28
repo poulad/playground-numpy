@@ -21,4 +21,3 @@ print(f"Reshaping C into a 1x3 matrix:\n{c[newaxis, :]}")
 d = np.array(np.floor(np.random.random((4, 5)) * 57), dtype=np.int16)
 print(f"Array d:\n{d}")
 print(f"split into 3 arrays horizontally between 2nd and 3rd columns:\n{np.hsplit(d, (1, 2))}")
-
